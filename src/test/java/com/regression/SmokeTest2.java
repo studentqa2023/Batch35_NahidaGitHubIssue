@@ -1,6 +1,6 @@
 package com.regression;
 
-import com.generi.login2;
+import com.generic.login2;
 
 public class SmokeTest2 {
 

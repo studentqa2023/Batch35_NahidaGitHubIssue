@@ -2,10 +2,13 @@ package com.regression;
 
 import java.io.IOException;
 
-import com.generi.LoginTesting1;
+import org.testng.annotations.Test;
+
+import com.generic.LoginTesting1;
 
 public class SmokeTest1 {
-	public static void main(String[] args) throws IOException {
+	@Test
+	public void testRun() throws IOException {
 		LoginTesting1 obj = new LoginTesting1();	
         obj.getLogin1();
 	}

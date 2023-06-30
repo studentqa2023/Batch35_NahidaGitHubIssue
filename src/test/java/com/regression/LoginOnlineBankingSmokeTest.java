@@ -2,7 +2,7 @@ package com.regression;
 
 import java.io.IOException;
 
-import com.generi.OnlineBanking;
+import com.generic.OnlineBanking;
 
 public class LoginOnlineBankingSmokeTest {
 	
